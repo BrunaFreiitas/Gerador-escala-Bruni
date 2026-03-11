@@ -23,8 +23,8 @@ while i < qtd:
     print(f"\nCadastro do funcionário {i+1}")
 
     nome = input("Nome: ")
-    folga1 = int(input("Primeira folga (dia): "))
-    folga2 = int(input("Segunda folga (dia): "))
+    folga1 = int(input("Primeira folga extra (dia): "))
+    folga2 = int(input("Segunda folga extra (dia): "))
 
     print("\nConfirmar dados?")
     print("C - Confirmar")
@@ -95,7 +95,7 @@ for func in funcionarios:
 
 print("\nLegenda:")
 print("P = Plantão")
-print("F= Descanso")
+print("F = Folga 12x36")
 print("F = Folga")
 
 data = hoje.strftime("%d/%m/%Y")
